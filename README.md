@@ -24,6 +24,7 @@ And install install dependencies:
 ```bash
 $ curl -sS https://getcomposer.org/installer |  php
 $ php composer.phar install
+```
 
 Features
 --------

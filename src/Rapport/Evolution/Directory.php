@@ -9,7 +9,7 @@ class Directory implements Evolution {
 
 	public function __construct($path) {
 		if (!is_dir($path))
-			throw new Exception\InvalidSource;
+			throw new Exception\InvalidSource("{$path} is not a valid directory.");
 		$directory = new \RegexIterator(new \DirectoryIterator($path), '/^update-[0-9]{8}\.sql$/');
 		foreach ($directory as $item)
 			if (($item->isFile()) && ($item->isReadable()))

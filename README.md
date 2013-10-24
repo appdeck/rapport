@@ -69,5 +69,5 @@ Authors
 + [http://github.com/vcampitelli](http://github.com/vcampitelli)
 
 Copyright and license
-
+---------------------
 Copyright 2013 appdeck under [GPL-3.0](LICENSE).

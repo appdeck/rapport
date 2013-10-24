@@ -1,0 +1,47 @@
+{
+    "name": "appdeck/rapport",
+    "type": "library",
+    "description": "A database evolution sync tool.",
+    "keywords": ["database","evolution","sync","history"],
+    "homepage": "http://appdeck.github.io/rapport",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Flávio Heleno",
+            "email": "flavio@appdeck.com.br",
+            "homepage": "http://flavioheleno.me",
+            "role": "Developer"
+        },
+        {
+            "name": "Vinícius Campitelli",
+            "email": "vinicius@appdeck.com.br",
+            "homepage": "http://viniciuscampitelli.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "suggest": {
+        "ext-json": "Add file history support",
+        "ext-mysqlnd": "Add MySQL evolution support",
+        "ext-pgsql": "Add PostgreSQL evolution support",
+        "ext-mssql": "Add MSSQL evolution support",
+        "ext-sqlite": "Add SQLite evolution support",
+        "ext-odbc": "Add ODBC evolution support",
+        "ext-PDO": "Multi database evolution support",
+        "ext-pdo_pgsql": "PDO PostgreSQL driver"
+    },
+    "autoload": {
+        "psr-0": {
+            "Rapport": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/appdeck/rapport"
+        }
+    ],
+    "minimum-stability": "dev"
+}

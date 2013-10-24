@@ -1,0 +1,8 @@
+#composer vendor/ folder
+vendor/
+
+#composer .lock files
+composer.lock
+
+#sublime files
+*.sublime-*
